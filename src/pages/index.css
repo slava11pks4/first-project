@@ -8,3 +8,63 @@
 @import url();
 @import url();
 @import url();
+
+.header {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  background-image: url(../images/logo_place_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  top:30px;
+  left: 64px;
+}
+
+.header__title{
+  width: 730px;
+  align-self: center;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  display: block;
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  bottom:0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+  z-index: 0;
+}
